@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  position: relative;
+  background: $general-background;
+  font-size: $general-font-size;
+  font-color: $font-color;
+  font-family: 'PingHei','Helvetica Neue',Helvetica, Arial, 'Lantinghei SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', 'SimSun', 'sans-serif';
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  html {
+    font-size: 37.5px;
+  }
+}
+@media (min-width: 376px) {
+  html {
+    font-size: 42px;
+  }
+}
+
+ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+input, textarea, select {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  resize: none;
+}
+
+a {
+  text-decoration:none;
+  out-line: none;
+  color: #333;
+}
+a:visited {
+  color:#333;
+  text-decoration:none;
+}
+a:hover {
+  color:#333;
+  text-decoration:none;
+}
+a:active {
+  color:#333;
+  text-decoration:none;
+}

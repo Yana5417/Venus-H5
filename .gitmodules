@@ -1,0 +1,3 @@
+[submodule "dist"]
+	path = dist
+	url = git@ox.bamaying.com:BMW/scorpio-dist.git

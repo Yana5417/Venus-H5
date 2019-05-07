@@ -1,0 +1,94 @@
+.card {
+  position: relative;
+  display: inline-block;
+  margin-right: 13px;
+  margin-top: 20px;
+  width: 254px;
+  height: 173px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06);
+  border-radius: 4px;
+  text-align: center;
+  h4 {
+    padding: 30px 0;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgba(70,69,77,1);
+  }
+  .stars {
+    img {
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+    }
+  }
+  .desc {
+    font-size: 12px;
+    img {
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+  }
+  .interest-operators {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    height: 44px;
+    background: rgba(243,246,251,0.4);
+    border-radius: 0px 0px 4px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    img {
+      display: block;
+      width: 15px;
+      height: 16px;
+    }
+    img:nth-child(2),
+    img:nth-child(3) {
+      cursor: pointer;
+    }
+    .edit {
+      width: 14px;
+      height: 14px;
+      margin-right: 94px;
+    }
+  }
+  .hover-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 254px;
+    height: 133px;
+    background: #fff;
+    border-radius: 0 0 0px 0px;
+    padding: 9px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: auto;
+    span {
+      font-size: 12px;
+      font-weight: 500;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 6px;
+    }
+    .pics {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        width: 41px;
+        height: 40px;
+        border-radius: 2px;
+        border: 1px solid rgba(255,255,255,0.8);
+      }
+    }
+  }
+}
+
+.cusor-pointer {
+  cursor: pointer;
+}
