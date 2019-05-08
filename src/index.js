@@ -9,17 +9,17 @@ import { Provider } from 'react-redux';
 
 // 初始化以及依赖
 import 'normalize.css';
-import '@/assets/styles';
-import '@/utils/logger';
-import store from '@/store';
-import history from '@/utils/history';
+// import '@/assets/styles';
+// import '@/utils/logger';
+import store from './store';
+import history from './utils/history';
 
 // 页面
 import BasicLayout from './layouts/BasicLayout';
 
 
 // 报错相关
-import NotFound from '@/containers/Errors/NotFound';
+import NotFound from './containers/Errors/NotFound';
 
 /* 404 页面显示 */
 /* 参考: https://github.com/ReactTraining/react-router/issues/4698#issuecomment-314419439 */
@@ -45,4 +45,4 @@ class App extends React.Component {
   }
 }
 
-ReactDom.render( <App /> , document.getElementById('app'));
+ReactDom.render(<App /> , document.getElementById('app'));
